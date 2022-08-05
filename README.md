@@ -8,7 +8,7 @@
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-![miro](https://user-images.githubusercontent.com/67606888/183077016-f3a4ecf0-4dfc-4489-9251-bc55453daf32.png)
+
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
