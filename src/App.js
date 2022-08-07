@@ -77,8 +77,8 @@ class App extends Component {
 
 
   displayWeather = async (searchQuery, lat, lon) => {
-    const weatherData = await axios.get(`http://localhost:3002/weather?searchQuery=${searchQuery}&lat=${lat}&lon=${lon}`).catch(function (error) { console.log(error) });
-    console.log(weatherData.data)
+    const weatherData = await axios.get(`http://localhost:3001/weather?searchQuery=${searchQuery}&lat=${lat}&lon=${lon}`).catch(function (error) { console.log(error) });
+
     try {
       this.setState({
         isWeather: true,
@@ -98,7 +98,7 @@ class App extends Component {
   }
 
   searchMovies = async (searchQuery) => {
-    const movieData = await axios.get(`http://localhost:3002/movies?searchQuery= ${searchQuery}`)
+    const movieData = await axios.get(`http://localhost:3001/movies?searchQuery= ${searchQuery}`)
     try {
       this.setState({
         movies: movieData.data,
